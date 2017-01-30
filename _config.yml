@@ -6,24 +6,24 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Webjeda cards
-email: your-email@domain.com
+title: ZeroPhone Newsletter
+email: crimier@yandex.ru
 description: > # this means to ignore newlines until "baseurl:"
-  Webjeda Cards is a Bootstrap based jekyll theme for portfolio, photography or any kind of blog.
+  ZeroPhone weekly worklog newsletter: Pi-powered open-source mobile phone (that you can assemble for 50$ in parts)
   
   
   
-baseurl: "/cards" # the subpath of your site, e.g. /blog
-url: "http://webjeda.com" # the base hostname & protocol for your site
+baseurl: "/newsletter" # the subpath of your site, e.g. /blog
+url: "https://github.com/ZeroPhone" # the base hostname & protocol for your site
 
 #sidebar
-default-image: webjeda-logo-big.jpg # If there is no featured image in a post then this image will be showed. Also on all pages this image will be showed. Use a 500x250 image.
+default-image: ZeroPhone1.jpg # If there is no featured image in a post then this image will be showed. Also on all pages this image will be showed. Use a 500x250 image.
 
 #footer
 built-by: webjeda
 copyright:
-   name: webjeda
-   link: 'http://blog.webjeda.com'
+   name: ZeroPhone
+   link: 'https://hackaday.io/project/19035'
 
 # Build settings
 markdown: kramdown
@@ -32,21 +32,21 @@ paginate: 6
 paginate_path: /page:num/
 
 # Tracker
-analytics: UA-83979019-1
+#analytics: UA-83979019-1
 
 # Comments
-disqus-shortname: webjeda-demo
+#disqus-shortname: webjeda-demo
 
 #social
-facebook: http://facebook.com/webjeda
-quora: http://quora.com/sharathdt
-twitter: http://twitter.com/@webjeda
-github: http://github.com/webjeda
+#facebook: http://facebook.com/webjeda
+#quora: http://quora.com/sharathdt
+#twitter: http://twitter.com/@webjeda
+github: http://github.com/ZeroPhone/
 
 #facebook like box
-fb-app-id: 549480635219583
-fb-page-url: https://www.facebook.com/webjeda/
-fb-page-title: webjeda
+#fb-app-id: 549480635219583
+#fb-page-url: https://www.facebook.com/webjeda/
+#fb-page-title: webjeda
 
 # Sass style
 sass:
@@ -54,4 +54,3 @@ sass:
 
 # Ruby Gems
 gems: [jekyll-paginate, jekyll-seo-tag]
-
