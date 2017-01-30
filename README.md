@@ -1,6 +1,6 @@
 This the ZeroPhone newsletter repository for https://zerophone.github.io/newsletter/
 
-![ZeroPhone](/newsletter/images/ZeroPhone1.jpg)
+![ZeroPhone](/images/ZeroPhone1.jpg)
 
 ZeroPhone is a mobile phone that is:  
 1) As open-source as possible *while also being cheap*  
