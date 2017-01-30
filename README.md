@@ -1,38 +1,10 @@
-# Installation: 
-Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
+This the ZeroPhone newsletter repository for https://zerophone.github.io/newsletter/
 
-Watch my video on instlallation
-<iframe width="100%" height="360" src="https://www.youtube.com/embed/T2nx6tj-ZH4?rel=0" frameborder="0" allowfullscreen></iframe>
+ZeroPhone is a mobile phone that is:  
+1) As open-source as possible *while also being cheap*  
+2) Easy to get parts for if you want to assemble one  
+3) Easy to assemble and repair  
+4) Free from apps with privacy concerns  
+5) Easy to write apps for
 
-## How to delete old **gh-pages** branch?
-After forking the repository, click on **branches**.
-
-![delete gh-pages branch](/images/delete-github-branch.png)
-
-Delete ``gh-pages`` branch.
-![delete gh-pages branch](/images/delete-github-branch-2.png)
-
-You have to create a new ``gh-pages`` branch using the master branch. Go back to the forked repository and create ``gh-pages`` branch.
-
-![create gh-pages branch](/images/create-gh-pages-branch.JPG)
-
-Now, go to settings and check the **Github Pages** section. You should see a URL where the blog is hosted.
-
-This process will host the theme as a **Project Page**. You can also download the files for local development. 
-
-Default theme will look like this
-
-![webjeda cards jekyll theme](/images/webjeda-cards-jekyll-theme-1.png)
-
-This theme is responsive.
-
-![webjeda cards responsive jekyll theme](/images/webjeda-cards-responsive-jekyll-theme-2.png)
-
-
-
-# Development
-Make changes to the **master** branch and create a pull request. Do not use **gh-pages** branch as it is used to host the theme.
-
-
-# License
-MIT License
+Currently, it costs about 50$ in parts, and all the parts are available on eBay. No BGA or other difficultly solderable ICs are used (with the obvious exception of Pi Zero). User interface is written using Python, and there's a phone-tailored UI framework in the works (so far, it uses pyLCI for interfacing). However, even current state of it is further that other projects have come.
