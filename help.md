@@ -8,7 +8,7 @@ The project's development takes place on [hackaday.io](https://hackaday.io/proje
 
 ## Donate
 
-Unfortunately, the project is not a pure software project, so there are all kinds of expenses you could help us cover. We need to order components, iterate on PCB design and cover other expenses like shipping. Also, now I'm aiming to build a batch of beta phone kits - to send them to beta testers and independent reviewers, and that's a large expense that you could help with, to ensure better testing and independent reviews of the project.
+We need to order components, iterate on PCB design and cover other expenses like shipping. Also, now I'm aiming to build a batch of beta phone kits (to send them to beta testers and independent reviewers) and that's a large expense that you could help us with - to allow for better testing and independent reviews.
 
 You can donate [here](https://www.paypal.me/ZeroPhone) using PayPal.
 
