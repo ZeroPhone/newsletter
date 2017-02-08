@@ -27,7 +27,7 @@ Here's a short survey you can fill out to help us understand what we could do to
                 <textarea class="contact-textarea" placeholder="Your expectations" class="form-control" rows="4" id="expectations" name="expectations" tabindex="3"></textarea>
             </div>
             <div class="form-group">
-                <label class="control-label" for="plans">What are phone manufacturers doing that you would do differently?</label>
+                <label class="col-lg-12 control-label" for="plans">What are phone manufacturers doing that you would do differently?</label>
                 <textarea class="contact-textarea" placeholder="Your evil plans if you were to manufacture phones" class="form-control" rows="4" id="plans" name="plans" tabindex="4"></textarea>
             </div>
             <div class="form-group">
