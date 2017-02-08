@@ -23,32 +23,24 @@ Here's a short survey you can fill out to help us understand what we should be w
                 </div>
             </div>
             <div class="form-group">
-                <label class="col-lg-2 control-label" for="expectations">What do you expect from a phone with open-source hardware and software?</label>
+                <label class="control-label" for="expectations">What do you expect from a phone with open-source hardware and software?</label>
                 <textarea class="contact-textarea" placeholder="Your expectations" class="form-control" rows="4" id="expectations" name="expectations" tabindex="3"></textarea>
             </div>
             <div class="form-group">
                 <label class="control-label" for="plans">What are phone manufacturers doing that you would do differently?</label>
-                <div class="col-lg-10">
                 <textarea class="contact-textarea" placeholder="Your evil plans if you were to manufacture phones" class="form-control" rows="4" id="plans" name="plans" tabindex="4"></textarea>
-                </div>
             </div>
             <div class="form-group">
-                <label class="col-lg-10 control-label" for="wishes">What do you wish your phone did differently?</label>
-                <div class="col-lg-10">
+                <label class="control-label" for="wishes">What do you wish your phone did differently?</label>
                 <textarea class="contact-textarea" placeholder="Your complaints" class="form-control" rows="4" id="wishes" name="wishes" tabindex="5"></textarea>
-                </div>
             </div>
             <div class="form-group">
-                <label class="col-lg-2 control-label" for="badthings">Anything you think is bad/unsatisfying about the ZeroPhone project?</label>
-                <div class="col-lg-10">
-                <textarea class="contact-textarea" placeholder="Your message" class="form-control" rows="4" id="badthings" name="badthings" tabindex="6"></textarea>
-                </div>
+                <label class="control-label" for="badthings">Anything you think is bad/unsatisfying about the ZeroPhone project?</label>
+                <textarea class="contact-textarea" placeholder="Why ZeroPhone sucks" class="form-control" rows="4" id="badthings" name="badthings" tabindex="6"></textarea>
             </div>
             <div class="form-group">
-                <label class="col-lg-2 control-label" for="anything_else">Anything else you want to say?</label>
-                <div class="col-lg-10">
+                <label class="control-label" for="anything_else">Anything else you want to say?</label>
                 <textarea class="contact-textarea" placeholder="Your message" class="form-control" rows="4" id="anything_else" name="anything_else" tabindex="7"></textarea>
-                </div>
             </div>            
            <div class="form-group"> 
            <div class="col-lg-10 col-lg-offset-2">  
