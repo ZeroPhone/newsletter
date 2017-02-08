@@ -4,7 +4,7 @@ title: Help this project!
 permalink: /help/
 ---
 
-# Like this project? Here are some ways you can help:
+Like this project? Here are some ways you can help:
 
 ## Contribute
 
