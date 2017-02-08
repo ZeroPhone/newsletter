@@ -5,7 +5,7 @@ permalink: /contact/
 ---
 
 
-I would love to hear your thoughts about ZeroPhone. Any query, any suggestion or feedback would be great! 
+I would love to hear your thoughts about ZeroPhone. Any query, suggestion or feedback would be great! 
 
 
 
