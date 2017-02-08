@@ -20,7 +20,7 @@ You can donate [here](https://www.paypal.me/ZeroPhone) using PayPal.
 
 ## Fill in this survey
 
-We have [a small survey](/survey/) you could complete, so that we can understand if ZeroPhone project is moving in the right direction.
+We have [a small survey]({{site.baseurl}}/survey/) you could complete, so that we can understand if ZeroPhone project is moving in the right direction.
 
 
 ## Spread the word
