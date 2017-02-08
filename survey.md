@@ -4,7 +4,7 @@ title: Survey
 permalink: /survey/
 ---
 
-Here's a short survey you can fill out to help us understand what we could do to improve this project. All the fields are optional, feel free to skip questions if you can't think of an answer.
+Here's a short survey you can fill out to help us understand what we could do to improve this project. All fields are optional, feel free to skip questions if you can't think of an answer.
 
 
 <form id="contact-form" class="form-horizontal" action="https://getsimpleform.com/messages?form_api_token=6593bd835ac595aa3f0a58bbdff4773a" method="POST" enctype="multipart/form-data">
@@ -17,7 +17,7 @@ Here's a short survey you can fill out to help us understand what we could do to
             </div>
             <div class="form-group">
                 <label class="col-lg-2 control-label" for="email_optional">Email: (optional)</label>
-                <div>
+                <div class="col-lg-10">
                 <input type="email_optional" placeholder="Your email" id="email" class="form-control" name="email" tabindex="2"/>
                 </div>
             </div>
@@ -27,6 +27,7 @@ Here's a short survey you can fill out to help us understand what we could do to
                 <textarea class="contact-textarea" placeholder="Your expectations" class="form-control" rows="4" id="expectations" name="expectations" tabindex="3"></textarea>
             </div>
             <div class="form-group">
+                <!-- this fucking glitch -->
                 <label class="control-label" for="plans">What are phone manufacturers doing that you would do differently?</label>
                 <textarea class="contact-textarea" placeholder="Your evil plans if you were to manufacture phones" class="form-control" rows="4" id="plans" name="plans" tabindex="4"></textarea>
             </div>
