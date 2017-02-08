@@ -24,18 +24,16 @@ Here's a short survey you can fill out to help us understand what we should be w
             </div>
             <div class="form-group">
                 <label class="col-lg-2 control-label" for="expectations">What do you expect from a phone with open-source hardware and software?</label>
-                <div class="col-lg-10">
                 <textarea class="contact-textarea" placeholder="Your expectations" class="form-control" rows="4" id="expectations" name="expectations" tabindex="3"></textarea>
-                </div>
             </div>
             <div class="form-group">
-                <label class="col-lg-2 control-label" for="plans">What are phone manufacturers doing that you would do differently?</label>
+                <label class="control-label" for="plans">What are phone manufacturers doing that you would do differently?</label>
                 <div class="col-lg-10">
                 <textarea class="contact-textarea" placeholder="Your evil plans if you were to manufacture phones" class="form-control" rows="4" id="plans" name="plans" tabindex="4"></textarea>
                 </div>
             </div>
             <div class="form-group">
-                <label class="col-lg-2 control-label" for="wishes">What do you wish your phone did differently?</label>
+                <label class="col-lg-10 control-label" for="wishes">What do you wish your phone did differently?</label>
                 <div class="col-lg-10">
                 <textarea class="contact-textarea" placeholder="Your complaints" class="form-control" rows="4" id="wishes" name="wishes" tabindex="5"></textarea>
                 </div>
