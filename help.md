@@ -4,7 +4,6 @@
 
 The project's development takes place on [hackaday.io](https://hackaday.io/project/19035). If you would like to contribute to the development, read the latest "Project state" worklogs to see what we need help with, then join the project on Hackaday.io and help our project become even cooler than it is!
 
----
 
 ## Donate
 
@@ -12,13 +11,11 @@ We need to order components, iterate on PCB design and cover other expenses like
 
 You can donate [here](https://www.paypal.me/ZeroPhone) using PayPal.
 
----
 
 ## Fill in this survey
 
 Something something survey to be made today
 
----
 
 ## Spread the word
 
