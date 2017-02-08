@@ -22,6 +22,7 @@ Here's a short survey you can fill out to help us understand what we should be w
                 <input type="email" placeholder="Your email" id="email" class="form-control" name="email" tabindex="2"/>
                 </div>
             </div>
+            </br>
             <div class="form-group">
                 <label class="control-label" for="expectations">What do you expect from a phone with open-source hardware and software?</label>
                 <textarea class="contact-textarea" placeholder="Your expectations" class="form-control" rows="4" id="expectations" name="expectations" tabindex="3"></textarea>
