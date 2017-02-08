@@ -41,7 +41,7 @@ Here's a short survey you can fill out to help us understand what we could do to
             </div>
             <div class="form-group">
                 <label class="control-label" for="badthings">A feature that you want a lot?</label>
-                <textarea class="contact-textarea" placeholder="Why ZeroPhone sucks" class="form-control" rows="4" id="badthings" name="badthings" tabindex="6"></textarea>
+                <textarea class="contact-textarea" placeholder="It should make coffee, too" class="form-control" rows="4" id="badthings" name="badthings" tabindex="6"></textarea>
             </div>
             <div class="form-group">
                 <label class="control-label" for="anything_else">Anything else you want to say?</label>
