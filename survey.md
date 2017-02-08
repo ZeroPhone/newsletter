@@ -4,21 +4,21 @@ title: Survey
 permalink: /survey/
 ---
 
-Here's a short survey you can fill out to help us understand what we could do to improve this project.
+Here's a short survey you can fill out to help us understand what we could do to improve this project. All the fields are optional, feel free to skip questions if you can't think of an answer.
 
 
 <form id="contact-form" class="form-horizontal" action="https://getsimpleform.com/messages?form_api_token=6593bd835ac595aa3f0a58bbdff4773a" method="POST" enctype="multipart/form-data">
        <fieldset>
             <div class="form-group">
-                <label class="col-lg-2 control-label" for="name">Name: (optional)</label>
+                <label class="col-lg-2 control-label" for="name_optional">Name: (optional)</label>
                 <div class="col-lg-10">
-                <input type="text" placeholder="Your name" id="name" class="form-control" name="name" tabindex="1"/>
+                <input type="text" placeholder="Your name" id="name_optional" class="form-control" name="name_optional" tabindex="1"/>
                 </div>
             </div>
             <div class="form-group">
-                <label class="col-lg-2 control-label" for="email">Email: (optional)</label>
-                <div class="col-lg-10">
-                <input type="email" placeholder="Your email" id="email" class="form-control" name="email" tabindex="2"/>
+                <label class="col-lg-2 control-label" for="email_optional">Email: (optional)</label>
+                <div>
+                <input type="email_optional" placeholder="Your email" id="email" class="form-control" name="email" tabindex="2"/>
                 </div>
             </div>
             <br>
@@ -27,7 +27,7 @@ Here's a short survey you can fill out to help us understand what we could do to
                 <textarea class="contact-textarea" placeholder="Your expectations" class="form-control" rows="4" id="expectations" name="expectations" tabindex="3"></textarea>
             </div>
             <div class="form-group">
-                <label class="col-lg-12 control-label" for="plans">What are phone manufacturers doing that you would do differently?</label>
+                <label class="control-label" for="plans">What are phone manufacturers doing that you would do differently?</label>
                 <textarea class="contact-textarea" placeholder="Your evil plans if you were to manufacture phones" class="form-control" rows="4" id="plans" name="plans" tabindex="4"></textarea>
             </div>
             <div class="form-group">
@@ -36,6 +36,10 @@ Here's a short survey you can fill out to help us understand what we could do to
             </div>
             <div class="form-group">
                 <label class="control-label" for="badthings">Anything you think is bad/unsatisfying about the ZeroPhone project?</label>
+                <textarea class="contact-textarea" placeholder="Why ZeroPhone sucks" class="form-control" rows="4" id="badthings" name="badthings" tabindex="6"></textarea>
+            </div>
+            <div class="form-group">
+                <label class="control-label" for="badthings">A feature that you want a lot?</label>
                 <textarea class="contact-textarea" placeholder="Why ZeroPhone sucks" class="form-control" rows="4" id="badthings" name="badthings" tabindex="6"></textarea>
             </div>
             <div class="form-group">
