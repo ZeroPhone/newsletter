@@ -4,8 +4,7 @@ title: Survey
 permalink: /survey/
 ---
 
-Here's a short survey you can fill out to help us understand what we should be waiting 
-
+Here's a short survey you can fill out to help us understand what we could do to improve this project.
 
 
 <form id="contact-form" class="form-horizontal" action="https://getsimpleform.com/messages?form_api_token=6593bd835ac595aa3f0a58bbdff4773a" method="POST" enctype="multipart/form-data">
@@ -22,7 +21,7 @@ Here's a short survey you can fill out to help us understand what we should be w
                 <input type="email" placeholder="Your email" id="email" class="form-control" name="email" tabindex="2"/>
                 </div>
             </div>
-            </br>
+            <br>
             <div class="form-group">
                 <label class="control-label" for="expectations">What do you expect from a phone with open-source hardware and software?</label>
                 <textarea class="contact-textarea" placeholder="Your expectations" class="form-control" rows="4" id="expectations" name="expectations" tabindex="3"></textarea>
