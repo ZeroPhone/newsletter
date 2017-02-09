@@ -12,8 +12,7 @@ Lots of great news! A contributor set up [the newsletter archive](http://zeropho
 
 ---
 
-##   
-Thoughts
+## Thoughts
 
 I decided I should write on [the most important part of this project](https://hackaday.io/project/19035/log/53042) - the app infrastructure. ZeroPhone won't survive without software tailored for it, and it's important to define - which apps are a priority and which aren't. I've thought about this for a few months now, and this is the essence of it - apps should be open-source, and ZeroPhone has to have all the basic features, but also emphasise those that will be unique to ZeroPhone.  
 So far, it's more about the "apps" and less about the "infrastructure", the infrastructure requirements will have to be considered later (when there's enough experience writing apps).  
@@ -45,6 +44,7 @@ Now that beta hardware is done, it's time for beta software. [Here, I describe](
 Also, I've [made a page](https://zerophone.github.io/newsletter/help/) about contributing/helping the project in general - over the next two weeks, I'll compile and publish a list of priorities, so anybody interested in joining the project will know exactly what he can help with.
 
 ---
+
 ## P.S.
 
 If you have any suggestions, comments, project ideas or wishes - reply to this e-mail, PM me on [Hackaday](https://hackaday.io/CRImier) or [Reddit](https://www.reddit.com/user/CRImier), maybe comment on [the Hackaday project](https://hackaday.io/project/19035) - whatever works for you!
