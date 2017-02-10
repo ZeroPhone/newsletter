@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ZeroPhone moves forward - finishing touches on hardware
+title: Major update - hardware, software, contributors and plans
 img: ZeroPhone3.jpg
 ---
 
