@@ -40,12 +40,16 @@ Here's a short survey you can fill out to help us understand what we could do to
                 <textarea class="contact-textarea" placeholder="Why ZeroPhone sucks" class="form-control" rows="4" id="badthings" name="badthings" tabindex="6"></textarea>
             </div>
             <div class="form-group">
+                <label class="control-label" for="sourcing">Do you plan to assemble a ZeroPhone after sourcing all the parts yourself? If so, what are the places you can get electronics parts from? Does eBay/Aliexpress work for you?</label>
+                <textarea class="contact-textarea" placeholder="Why ZeroPhone sucks" class="form-control" rows="4" id="sourcing" name="sourcing" tabindex="7"></textarea>
+            </div>
+            <div class="form-group">
                 <label class="control-label" for="feature">A feature that you want a lot?</label>
-                <textarea class="contact-textarea" placeholder="It should make coffee, too" class="form-control" rows="4" id="feature" name="feature" tabindex="6"></textarea>
+                <textarea class="contact-textarea" placeholder="It should make coffee, too" class="form-control" rows="4" id="feature" name="feature" tabindex="8"></textarea>
             </div>
             <div class="form-group">
                 <label class="control-label" for="anything_else">Anything else you want to say?</label>
-                <textarea class="contact-textarea" placeholder="Your message" class="form-control" rows="4" id="anything_else" name="anything_else" tabindex="7"></textarea>
+                <textarea class="contact-textarea" placeholder="Your message" class="form-control" rows="4" id="anything_else" name="anything_else" tabindex="9"></textarea>
             </div>            
            <div class="form-group"> 
            <div class="col-lg-10 col-lg-offset-2">  
