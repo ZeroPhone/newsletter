@@ -40,8 +40,8 @@ Here's a short survey you can fill out to help us understand what we could do to
                 <textarea class="contact-textarea" placeholder="Why ZeroPhone sucks" class="form-control" rows="4" id="badthings" name="badthings" tabindex="6"></textarea>
             </div>
             <div class="form-group">
-                <label class="control-label" for="sourcing">Do you plan to assemble a ZeroPhone after sourcing all the parts yourself? If so, what are the places you can get electronics parts from? Does eBay/Aliexpress work for you?</label>
-                <textarea class="contact-textarea" placeholder="Why ZeroPhone sucks" class="form-control" rows="4" id="sourcing" name="sourcing" tabindex="7"></textarea>
+                <label class="control-label" for="sourcing">Do you plan to assemble a ZeroPhone after sourcing all the parts yourself? If so, what are the places you can get <a href="https://github.com/ZeroPhone/ZeroPhone-PCBs/blob/master/bom_and_description.xls">the parts</a> from? Does eBay/Aliexpress work for you?</label>
+                <textarea class="contact-textarea" placeholder="Building them phones, sourcing them parts" class="form-control" rows="4" id="sourcing" name="sourcing" tabindex="7"></textarea>
             </div>
             <div class="form-group">
                 <label class="control-label" for="feature">A feature that you want a lot?</label>
