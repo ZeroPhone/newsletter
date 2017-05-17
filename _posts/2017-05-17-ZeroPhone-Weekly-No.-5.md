@@ -16,15 +16,13 @@ This and the previous weeks were mainly spent by creating a contributor-friendly
 
 ---
 
-##   
-Software
+## Software
 
 After assembling ZeroPhones and mailing them to recipients, I'll concentrate on apps (and will be writing about that) - but before that, [there are some fundamental software flaws](https://hackaday.io/project/19035-zerophone-a-raspberry-pi-smartphone/log/58572-zerophone-software-pylci-todo-and-challenges) that need to be solved, or worked around. If you're a Python programmer and you'd be interested in contributing, please [take a look at these issues](https://github.com/ZeroPhone/pyLCI/issues) and see if you could help solve some of them. By the way, there's now an emulator so you don't need an OLED just to run the ZeroPhone interface for development; I currently haven't published the instructions for installing it, but I send them out upon requests (ask in IRC?); and will make a wiki page for them this week.
 
 ---
 
-##   
-Hardware
+## Hardware
 
 Gamma boards have been released - [currently in the master branch](https://github.com/ZeroPhone/ZeroPhone-PCBs). I fixed plenty of bugs, added some features and even managed to squeeze in a place for accelerometer/gyroscope breakout (untested). There'll likely be a Delta revision before v1.0 - with bugfixes for Gamma and, maybe, some features added. If you're [interested in helping](http://wiki.zerophone.org/index.php/Contribution_Priorities#Reviewing_ZeroPhone_PCBs_and_working_on_PCB_TODOs) with PCB design, [head here](http://wiki.zerophone.org/index.php/PCB_versions,_features_and_guidelines) and [then here](https://github.com/ZeroPhone/ZeroPhone-PCBs/issues), I'll be happy to hear your thoughts and accept your pull requests =)  
 
@@ -32,8 +30,7 @@ For all those people that were concerned about ZeroPhone assembly - my decision 
 
 ---
 
-##   
-Contribution priorities
+## Contribution priorities
 
 Without doubt, one of the most important things in any project is information that's collected during the project's development. This is why [we now have a wiki](http://wiki.zerophone.org/index.php/Main_Page), and it has to be the main source of detailed information for anybody who's going to be interested in ZeroPhone. However, behind each wiki there's a community effort, and if somebody has some free time and interest, [I ask you to step in and help](http://wiki.zerophone.org/index.php/Contribution_Priorities#Moving_project_information_to_this_Wiki) - the wiki needs content, and that's a list of topics which will need to be covered in ZeroPhone Wiki. There are some points which so far only I know enough to write about, and I myself will concentrate on those - but I've highlighted the "can likely be written by anybody" topics in bold, just so that it's easier to pick a topic to cover for anybody who has the time to do it =)
 
@@ -50,7 +47,6 @@ This mailing list has grown to over 500 people in the meantime - I'm happy to be
 
 ---
 
-##   
-P.S.
+## P.S.
 
 If you have any suggestions, comments, project ideas or wishes - you can [fill out the survey](https://zerophone.github.io/newsletter/survey/), reply to this e-mail, reach me on [Hackaday](https://hackaday.io/CRImier) or [Reddit](https://www.reddit.com/user/CRImier), maybe comment on [the Hackaday project](https://hackaday.io/project/19035) - whatever works for you!
