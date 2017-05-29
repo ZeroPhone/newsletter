@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building ZeroPhones, UI emulator, and breakout troubles
-img: ZeroPhone6.jpg
+img: ZeroPhone6.JPG
 ---
 
 # Building ZeroPhones, UI emulator, and breakout troubles
