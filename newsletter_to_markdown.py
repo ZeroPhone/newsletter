@@ -8,7 +8,7 @@ import os
 posts_dir = "_posts"
 images_dir = "images"
 
-#From https://github.com/matthewwithanm/python-markdownify
+#Taken from https://github.com/matthewwithanm/python-markdownify
 from markdownify import MarkdownConverter
 def md(html, **kwargs):
     class CustomMarkdownConverter(MarkdownConverter):
