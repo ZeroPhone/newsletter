@@ -5,6 +5,7 @@ img: 2017-09-02_7_1.jpg
 ---
 
 # Sending out ZeroPhones, new revision and 3G
+
  Gamma ZeroPhones are being sent out. Even though I encountered a problem with display breakouts, which doesn't allow me to send out most of the phones, I still had some spare breakouts which were working. While experimenting, I've destroyed a lot of OLED panels by accident - reverse polarity, clipped edges, some cases are undetermined. This is a hint at one of the challenges which I'll encounter when producing ZeroPhones on a larger scale - by now, I've found a reliable source of display breakouts, but there surely will be issues with other breakouts, too. Currently, 3 phones have been sent out, 3 more are being tested before being shipped, and two more are to be assembled soon. One of first ZeroPhones that was sent out [appeared at DebConf in Montreal](https://bits.debian.org/2017/08/debian-mobile-continues.html), even! (first picture taken from this article, too)  
    
  There's a Delta revision coming. It's supposed to be v1.0, *much like Gamma revision was supposed to be ;-)* This revision, though, is mostly bugfixes, [silkscreen additions](https://github.com/ZeroPhone/ZeroPhone-PCBs/issues/52) (various labels and drawings, to help with assembly and usage), as well as features being removed, so, this far, I don't see any reason why it can't become the hardware v1.0. Also, hardware switches are becoming actual switches, there'll be an option to add [a debug console interface to the charging board](https://github.com/ZeroPhone/ZeroPhone-PCBs/issues/49), assembly will be even more easy - oh, and the PCBs will be red.  
@@ -29,6 +30,7 @@ img: 2017-09-02_7_1.jpg
 ---
 
 ## P.S.
+
  As usual, if you have any suggestions, comments, project ideas or wishes - you can [fill out the survey](https://zerophone.github.io/newsletter/survey/), reply to this e-mail, reach me on [Hackaday](https://hackaday.io/CRImier) or [Reddit](https://www.reddit.com/user/CRImier), maybe comment on [the Hackaday project](https://hackaday.io/project/19035) - whatever works for you! 
 
   
