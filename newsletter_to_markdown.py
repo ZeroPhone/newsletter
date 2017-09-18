@@ -8,7 +8,17 @@ posts_dir = "_posts"
 images_dir = "images"
 
 #From https://github.com/matthewwithanm/python-markdownify
-from markdownify import markdownify as md
+from markdownify import MarkdownConverter
+def md(html, **kwargs):
+    class CustomMarkdownConverter(MarkdownConverter):
+        def convert_hn(self, n, el, text):
+            hashes = "#"*n
+            ret =  "\n---\n\n{} {}\n".format(hashes, text.strip())
+            return ret
+            #import pdb;pdb.set_trace()
+            #MarkdownConverter.convert_hn(self, n, el, text)
+
+    return CustomMarkdownConverter(**kwargs).convert(html)
 
 print("Enter the URL for the newsletter page on MailChimp")
 print("(the 'see in browser' URL from the email that MailChimp sent out)")
@@ -55,7 +65,7 @@ import pdb; pdb.set_trace()
 
 #images = OrderedDict()
 #first_image_filename = images[images.keys()[0]]
-first_image_filename = "ZeroPhone-x.jpg"
+first_image_filename = "ZeroPhoneX.jpg"
 
 #Getting title
 title_xpath = "/html/head/title"
@@ -64,19 +74,16 @@ title = tree.xpath(title_xpath)[0].text
 post_header = """---
 layout: post
 title: {0}
-img: {1}
----
-
-
-""".format(title, first_image_filename)
+img: {1}""".format(title, first_image_filename)
 
 
 unfiltered_md = md(content_html)
 
-with open(os.path.join(posts_dir, filename), "w") as f:
+post_path = os.path.join(posts_dir, filename)
+with open(post_path, "w") as f:
     f.write(post_header.encode("utf8"))
     f.write(unfiltered_md.encode("utf8"))
 
 
-print("Article written to ")
+print("Article written to {}".format(post_path))
 #Done!
