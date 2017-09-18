@@ -14,10 +14,8 @@ def md(html, **kwargs):
     class CustomMarkdownConverter(MarkdownConverter):
         def convert_hn(self, n, el, text):
             hashes = "#"*n
-            ret =  "\n---\n\n{} {}\n".format(hashes, text.strip())
+            ret =  "\n---\n\n{} {}\n\n".format(hashes, text.strip())
             return ret
-            #import pdb;pdb.set_trace()
-            #MarkdownConverter.convert_hn(self, n, el, text)
 
     return CustomMarkdownConverter(**kwargs).convert(html)
 
@@ -43,7 +41,6 @@ content_xpath = "/html/body/center/table/tr/td/table/tr[3]//tbody[@class='mcnTex
 #TODO: shorten (XPATH: https://msdn.microsoft.com/en-us/library/ms256086(v=vs.110).aspx )
 tree = xhtml.fromstring(html)
 content_element = tree.xpath(content_xpath)[0]
-content_html = xhtml.tostring(content_element)
 
 #Asking newsletter date and number from user
 print("Enter date in YYYY-MM-DD format")
@@ -56,8 +53,9 @@ post_filename = "{0}-ZeroPhone-Weekly-No.-{1}.md".format(date, newsletter_number
 print("Filename: {}".format(post_filename))
 
 #Finding images
-image_xpath = "//img[@align='center']"
-images = tree.xpath(image_xpath)
+image_xpath_1 = "//img[@align='center']"
+image_xpath_2 = "//img[@data-file-id]"
+images = tree.xpath(image_xpath_1) + tree.xpath(image_xpath_2)
 image_filenames = []
 for i, image in enumerate(images):
     extension = image.get("src").rsplit('.', 1)[1]
@@ -76,7 +74,7 @@ for i, image in enumerate(images):
         with open(img_path, 'wb') as f:
             r.raw.decode_content = True
             shutil.copyfileobj(r.raw, f) 
-        image.set("src", image_filenames[i])
+        image.set("src", os.path.join("..", img_path))
     else:
         print("Failed!")
 
@@ -91,6 +89,7 @@ title: {0}
 img: {1}""".format(title, first_image_filename)
 
 #Converting HTML into MD
+content_html = xhtml.tostring(content_element)
 unfiltered_md = md(content_html)
 
 #Writing everything into a post file
