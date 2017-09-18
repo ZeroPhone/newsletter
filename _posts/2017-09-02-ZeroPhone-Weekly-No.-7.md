@@ -1,52 +1,34 @@
 ---
 layout: post
-title: Call for contributors, first batch of ZeroPhones and ZeroPhone Wiki
+title: Sending out ZeroPhones, new revision and 3G
 img: 2017-09-02_7_1.jpg 
 ---
 
-# Call for contributors, first batch of ZeroPhones and ZeroPhone Wiki
-   
----
-
-## Project state
- You do remember about my plans to build a batch of 10 ZeroPhones - for reviewers? Well, I've got enough money for parts and more, [ordered parts for 20 ZeroPhones](https://hackaday.io/project/19035-zerophone-a-raspberry-pi-smartphone/log/58563-project-state-gamma-boards-finished-beta-boards-released-components-on-the-way), [received them, made some board redesigns to suit the parts](https://hackaday.io/project/19035-zerophone-a-raspberry-pi-smartphone/log/59341-project-state-prototype-batch-will-soon-be-built) and now I'm waiting for the boards to arrive! Once I receive them, I'll assemble about 20 ZeroPhones - they'll go to project contributors, reviewers (for advertising) and a couple of pre-orders. Other than that, I got the most I wanted out of PCBs, for now, and [I'm preparing for the crowdfunding](https://www.crowdsupply.com/arsenijs/zerophone) - it's about a month before it starts, Getting this far wouldn't be possible without all the donations I've received, and I want to thank everybody that helped me collect money for the parts - we finally got through that stage.   
+# Sending out ZeroPhones, new revision and 3G
+ Gamma ZeroPhones are being sent out. Even though I encountered a problem with display breakouts, which doesn't allow me to send out most of the phones, I still had some spare breakouts which were working. While experimenting, I've destroyed a lot of OLED panels by accident - reverse polarity, clipped edges, some cases are undetermined. This is a hint at one of the challenges which I'll encounter when producing ZeroPhones on a larger scale - by now, I've found a reliable source of display breakouts, but there surely will be issues with other breakouts, too. Currently, 3 phones have been sent out, 3 more are being tested before being shipped, and two more are to be assembled soon. One of first ZeroPhones that was sent out [appeared at DebConf in Montreal](https://bits.debian.org/2017/08/debian-mobile-continues.html), even! (first picture taken from this article, too)  
    
- This and the previous weeks were mainly spent by creating a contributor-friendly infrastructure that'd also help ZeroPhone go in the right direction. Most of [software](https://github.com/ZeroPhone/pyLCI/issues) and [hardware](https://github.com/ZeroPhone/ZeroPhone-PCBs/issues) problems were added to GitHub issues, so that it's easier to track progress and see what's yet to be done. A project's contributor - Maxlive\_dev - has set up [the ZeroPhone wiki](http://wiki.zerophone.org/index.php/Main_Page) and I've started filling it up with articles, intending to make it a one-stop resource about all things ZeroPhone. I've also set up the #ZeroPhone IRC channel on Freenode ([webchat link](http://webchat.freenode.net/?channels=%23ZeroPhone)) - so pop over if you want to talk about open-source phones and stuff (though I'm going to sleep right now, so maybe in about 8 hours ;-) ) There's now also a protonmail.com email address - the username is "zerophone" (I sure hope spam bots aren't smart enough to crawl through this sentence) .
-
- 
----
-
-## Software
+ There's a Delta revision coming. It's supposed to be v1.0, *much like Gamma revision was supposed to be ;-)* This revision, though, is mostly bugfixes, [silkscreen additions](https://github.com/ZeroPhone/ZeroPhone-PCBs/issues/52) (various labels and drawings, to help with assembly and usage), as well as features being removed, so, this far, I don't see any reason why it can't become the hardware v1.0. Also, hardware switches are becoming actual switches, there'll be an option to add [a debug console interface to the charging board](https://github.com/ZeroPhone/ZeroPhone-PCBs/issues/49), assembly will be even more easy - oh, and the PCBs will be red.  
    
- After assembling ZeroPhones and mailing them to recipients, I'll concentrate on apps (and will be writing about that) - but before that, [there are some fundamental software flaws](https://hackaday.io/project/19035-zerophone-a-raspberry-pi-smartphone/log/58572-zerophone-software-pylci-todo-and-challenges) that need to be solved, or worked around. If you're a Python programmer and you'd be interested in contributing, please [take a look at these issues](https://github.com/ZeroPhone/pyLCI/issues) and see if you could help solve some of them. By the way, there's now an emulator so you don't need an OLED just to run the ZeroPhone interface for development; I currently haven't published the instructions for installing it, but I send them out upon requests (ask in IRC?); and will make a wiki page for them this week.
-
- 
----
-
-## Hardware
+ Crowdfunding is going to be soon. It's hard for me to provide an estimate, but eash day I'm making sure I move forward, towards it. In general, I'm going for October right now, coinciding with [Hackaday Prize](https://hackaday.io/prize) final rounds. Right now, I'm pretty much working on "how do I price the kits/assembled phones, how to have enough profit to account for risks and still be able to grow the project, how to promote the crowdfunding efficiently, what content to release during updates" questions, while also doing hardware&a little software+documentation. A little bit of spoilers - there'll be E-Ink support, RTL-SDR, radio communication and removing Intel ME from a laptop, all using a ZeroPhone. There'll be more than that, of course ;-)  
    
- Gamma boards have been released - [currently in the master branch](https://github.com/ZeroPhone/ZeroPhone-PCBs). I fixed plenty of bugs, added some features and even managed to squeeze in a place for accelerometer/gyroscope breakout (untested). There'll likely be a Delta revision before v1.0 - with bugfixes for Gamma and, maybe, some features added. If you're [interested in helping](http://wiki.zerophone.org/index.php/Contribution_Priorities#Reviewing_ZeroPhone_PCBs_and_working_on_PCB_TODOs) with PCB design, [head here](http://wiki.zerophone.org/index.php/PCB_versions,_features_and_guidelines) and [then here](https://github.com/ZeroPhone/ZeroPhone-PCBs/issues), I'll be happy to hear your thoughts and accept your pull requests =)  
+ ![](https://gallery.mailchimp.com/055beefeabea5aa48a0c0bc74/images/9caebd29-24bd-4f49-8b31-f5f22f3046c9.png)  
    
- For all those people that were concerned about ZeroPhone assembly - my decision is that CrowdSupply campaign will mostly focus on phones that are as fully assembled as possible, because it appears that not that many people are thrilled with hand-soldering 0603 SMD components and 0.8mm TQFP - in hindsight, it seems to be something obvious =) Of course, the ease of assembly is going to remain for those that intend to assemble a ZeroPhone independently - it's one of project's priorities, not a side-effect. By the way, it's likely there'll also be PCB kits and "PCB kits with most of the small parts" during the campaign =)
-
- 
----
-
-## Contribution priorities
+ [Here's](https://github.com/ZeroPhone/ZeroPhone-Mod-PCBs/tree/master/sim53x0_breakout) a PCB I'm designing that makes 3G modem board a drop-in replacement for current ZeroPhone back boards, and even though making it fully compatible with current layout is tricky, I'll make sure it is a good drop-in replacement for 2G modem currently used. What that means is - there'll be 3G, and I aim to include it in the crowdfunding campaign. I'm also filming a video while I'm designing the 3G modem breakout board, outlining my reasons for decisions made in the process - hopefully, you'll like it =)  
    
- Without doubt, one of the most important things in any project is information that's collected during the project's development. This is why [we now have a wiki](http://wiki.zerophone.org/index.php/Main_Page), and it has to be the main source of detailed information for anybody who's going to be interested in ZeroPhone. However, behind each wiki there's a community effort, and if somebody has some free time and interest, [I ask you to step in and help](http://wiki.zerophone.org/index.php/Contribution_Priorities#Moving_project_information_to_this_Wiki) - the wiki needs content, and that's a list of topics which will need to be covered in ZeroPhone Wiki. There are some points which so far only I know enough to write about, and I myself will concentrate on those - but I've highlighted the "can likely be written by anybody" topics in bold, just so that it's easier to pick a topic to cover for anybody who has the time to do it =)
-
+ ![](https://gallery.mailchimp.com/055beefeabea5aa48a0c0bc74/images/34e2fe90-2367-4c38-a86d-86ea143a0033.jpg)  
    
- **[There's a survey!](https://zerophone.github.io/newsletter/survey/) Many of you have already completed that, and the results have helped me add and plan many features, address concerns and find plenty of great people to work with. If you haven't seen this survey and you would like to express your opinion/ideas/concerns about ZeroPhone, check it out =)**  
+ [I'm also playing with UI](https://github.com/ZeroPhone/pyLCI/tree/prettier_ui). By now, UI elements got the visual representation split into a separate layer, which allows for menus that look in many different ways. This is not in the master branch for now, since it's still experimental and bugs might appear, but it's a great feature to have - the interface can look much better and work with more than just text (also, it's a stepping stone for UI localization, since this feature also allows different fonts to be used). Next in the line - make it easy to customize fonts, menus and other UI elements!  
    
- This mailing list has grown to over 500 people in the meantime - I'm happy to be able to reach out to you all, knowing that we share the same goals and all want this project to succeed. I've got a huge delay in between mailing list archive again - unfortunately, I had to accept some freelance jobs in order to find the remaining money for ZeroPhone parts. I'll compensate by having one more newsletter this week, and those are the articles I'm about to finish that will go into it:  * A story about Chinese breakout inconsistencies
- * Privacy concerns and audio hardware switches
- * ZeroPhone interface emulator install instructions - for UI work and app development
- * 3D modelling requirements - so we can finally design cases for ZeroPhone
-  
+ ![](https://gallery.mailchimp.com/055beefeabea5aa48a0c0bc74/images/0cda64d1-1346-4555-9806-519d5132f84a.jpg)  
+   
+ If you want to write apps, [here's](https://hackaday.io/project/19035/log/63675) a small tutorial to get you started! More to come, eventually. Also, [pyLCI emulator](http://wiki.zerophone.org/index.php/PyLCI_emulator_setup) (a way to prototype apps without ZeroPhone hardware) got a redesign [thanks to Brian Dunlay](https://github.com/ZeroPhone/pyLCI/pull/12), so it works reliably now (although it temporarily lost the ability to show the splash screen, that's going to be fixed when aforementioned UI branch is merged).  
+   
+ I'm really bad at this "keeping a newsletter running" thing - for now. I'm making a first reminder app for ZeroPhone (working with MailChimp API to determine time when last newsletter was published), that'd ping me each week about having to designate time to make a new campaign. If this works out, I'll have a new newsletter edition in a week or so. Also, I've switched to a new workflow and it was surprisingly quicker to compile a newsletter than with the format I did before.  
+   
+ [ZeroPhone Wiki](http://wiki.zerophone.org/index.php/Main_Page) is slowly but surely being filled with content. Creating accounts is now blocked, but you can request one, which is pretty much the same thing, just adds a delay of up to a day (that's approximately how often I check the page with account requests).  
 ---
 
 ## P.S.
- If you have any suggestions, comments, project ideas or wishes - you can [fill out the survey](https://zerophone.github.io/newsletter/survey/), reply to this e-mail, reach me on [Hackaday](https://hackaday.io/CRImier) or [Reddit](https://www.reddit.com/user/CRImier), maybe comment on [the Hackaday project](https://hackaday.io/project/19035) - whatever works for you! 
+ As usual, if you have any suggestions, comments, project ideas or wishes - you can [fill out the survey](https://zerophone.github.io/newsletter/survey/), reply to this e-mail, reach me on [Hackaday](https://hackaday.io/CRImier) or [Reddit](https://www.reddit.com/user/CRImier), maybe comment on [the Hackaday project](https://hackaday.io/project/19035) - whatever works for you! 
 
   
