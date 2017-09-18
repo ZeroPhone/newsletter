@@ -1,6 +1,7 @@
 from collections import OrderedDict
 from lxml import html as xhtml
 import requests
+import shutil
 import sys
 import os
 
@@ -38,7 +39,7 @@ else:
     html = req.text
 
 
-#TODO: shorten (XPATH reference: https://msdn.microsoft.com/en-us/library/ms256086(v=vs.110).aspx )
+#TODO: shorten (XPATH: https://msdn.microsoft.com/en-us/library/ms256086(v=vs.110).aspx )
 content_xpath = "/html/body/center/table/tr/td/table/tr[3]//tbody[@class='mcnTextBlockOuter']//td[@class='mcnTextContent']"
 
 tree = xhtml.fromstring(html)
@@ -49,23 +50,39 @@ content_html = xhtml.tostring(content_element)
 #Asking newsletter date and number from user
 #print("Enter date in YYYY-MM-DD format")
 #date = raw_input("Date: ")
-date = "2017-00-00"
+date = "2017-09-02"
 #print("Enter newsletter number")
 #newsletter_number = int(raw_input("Number: "))
-newsletter_number = 9
+newsletter_number = 7
 
 #Generating filename
-filename = "{0}-ZeroPhone-Weekly-No.-{1}.md".format(date, newsletter_number)
-print("Filename: {}".format(filename))
+post_filename = "{0}-ZeroPhone-Weekly-No.-{1}.md".format(date, newsletter_number)
+print("Filename: {}".format(post_filename))
 
-import pdb; pdb.set_trace()
+#Finding images
+image_xpath = "//img[@align='center']"
+images = tree.xpath(image_xpath)
+image_filenames = []
+for i, image in enumerate(images):
+    extension = image.get("src").rsplit('.', 1)[1]
+    image_filename = "{0}_{1}_{2}.{3}".format(date, newsletter_number, i+1, extension)
+    print(image_filename)
+    image_filenames.append(image_filename)
+first_image_filename = image_filenames[0]
 
-#image_xpath = None
-#found_images = None
-
-#images = OrderedDict()
-#first_image_filename = images[images.keys()[0]]
-first_image_filename = "ZeroPhoneX.jpg"
+#Downloading images
+for i, image in enumerate(images):
+    print("Downloading {}".format(image.get("src")))
+    r = requests.get(image.get("src"), stream=True)
+    if r.status_code == 200:
+        img_path = os.path.join(images_dir, image_filenames[i])
+        print("Done, writing into {}".format(img_path))
+        with open(img_path, 'wb') as f:
+            r.raw.decode_content = True
+            shutil.copyfileobj(r.raw, f) 
+        image.set("src", image_filenames[i])
+    else:
+        print("Failed!")
 
 #Getting title
 title_xpath = "/html/head/title"
@@ -79,7 +96,7 @@ img: {1}""".format(title, first_image_filename)
 
 unfiltered_md = md(content_html)
 
-post_path = os.path.join(posts_dir, filename)
+post_path = os.path.join(posts_dir, post_filename)
 with open(post_path, "w") as f:
     f.write(post_header.encode("utf8"))
     f.write(unfiltered_md.encode("utf8"))
