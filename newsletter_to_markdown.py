@@ -23,8 +23,7 @@ def md(html, **kwargs):
 
 print("Enter the URL for the newsletter page on MailChimp")
 print("(the 'see in browser' URL from the email that MailChimp sent out)")
-#url = raw_input("URL: ")
-url = "http://mailchi.mp/1e519fe20bdb/call-for-contributors-first-batch-of-zerophones-and-zerophone-wiki?e=4681421369"
+url = raw_input("URL: ")
 
 if len(url) < 10:
     print("Do you have a filename to read from?")
@@ -39,21 +38,18 @@ else:
     html = req.text
 
 
-#TODO: shorten (XPATH: https://msdn.microsoft.com/en-us/library/ms256086(v=vs.110).aspx )
+#Getting article content
 content_xpath = "/html/body/center/table/tr/td/table/tr[3]//tbody[@class='mcnTextBlockOuter']//td[@class='mcnTextContent']"
-
+#TODO: shorten (XPATH: https://msdn.microsoft.com/en-us/library/ms256086(v=vs.110).aspx )
 tree = xhtml.fromstring(html)
-
 content_element = tree.xpath(content_xpath)[0]
 content_html = xhtml.tostring(content_element)
 
 #Asking newsletter date and number from user
-#print("Enter date in YYYY-MM-DD format")
-#date = raw_input("Date: ")
-date = "2017-09-02"
-#print("Enter newsletter number")
-#newsletter_number = int(raw_input("Number: "))
-newsletter_number = 7
+print("Enter date in YYYY-MM-DD format")
+date = raw_input("Date: ")
+print("Enter newsletter number")
+newsletter_number = int(raw_input("Number: "))
 
 #Generating filename
 post_filename = "{0}-ZeroPhone-Weekly-No.-{1}.md".format(date, newsletter_number)
@@ -88,19 +84,20 @@ for i, image in enumerate(images):
 title_xpath = "/html/head/title"
 title = tree.xpath(title_xpath)[0].text
 
+#Generating post header
 post_header = """---
 layout: post
 title: {0}
 img: {1}""".format(title, first_image_filename)
 
-
+#Converting HTML into MD
 unfiltered_md = md(content_html)
 
+#Writing everything into a post file
 post_path = os.path.join(posts_dir, post_filename)
 with open(post_path, "w") as f:
     f.write(post_header.encode("utf8"))
     f.write(unfiltered_md.encode("utf8"))
 
-
-print("Article written to {}".format(post_path))
 #Done!
+print("Article written to {}".format(post_path))
