@@ -12,15 +12,15 @@ img: 2017-09-02_7_1.jpg
    
  Crowdfunding is going to be soon. It's hard for me to provide an estimate, but eash day I'm making sure I move forward, towards it. In general, I'm going for October right now, coinciding with [Hackaday Prize](https://hackaday.io/prize) final rounds. Right now, I'm pretty much working on "how do I price the kits/assembled phones, how to have enough profit to account for risks and still be able to grow the project, how to promote the crowdfunding efficiently, what content to release during updates" questions, while also doing hardware&a little software+documentation. A little bit of spoilers - there'll be E-Ink support, RTL-SDR, radio communication and removing Intel ME from a laptop, all using a ZeroPhone. There'll be more than that, of course ;-)  
    
- ![](https://gallery.mailchimp.com/055beefeabea5aa48a0c0bc74/images/9caebd29-24bd-4f49-8b31-f5f22f3046c9.png)  
+ ![](images/2017-09-02_7_2.png)  
    
  [Here's](https://github.com/ZeroPhone/ZeroPhone-Mod-PCBs/tree/master/sim53x0_breakout) a PCB I'm designing that makes 3G modem board a drop-in replacement for current ZeroPhone back boards, and even though making it fully compatible with current layout is tricky, I'll make sure it is a good drop-in replacement for 2G modem currently used. What that means is - there'll be 3G, and I aim to include it in the crowdfunding campaign. I'm also filming a video while I'm designing the 3G modem breakout board, outlining my reasons for decisions made in the process - hopefully, you'll like it =)  
    
- ![](https://gallery.mailchimp.com/055beefeabea5aa48a0c0bc74/images/34e2fe90-2367-4c38-a86d-86ea143a0033.jpg)  
+ ![](images/2017-09-02_7_3.jpg)  
    
  [I'm also playing with UI](https://github.com/ZeroPhone/pyLCI/tree/prettier_ui). By now, UI elements got the visual representation split into a separate layer, which allows for menus that look in many different ways. This is not in the master branch for now, since it's still experimental and bugs might appear, but it's a great feature to have - the interface can look much better and work with more than just text (also, it's a stepping stone for UI localization, since this feature also allows different fonts to be used). Next in the line - make it easy to customize fonts, menus and other UI elements!  
    
- ![](https://gallery.mailchimp.com/055beefeabea5aa48a0c0bc74/images/0cda64d1-1346-4555-9806-519d5132f84a.jpg)  
+ ![](images/2017-09-02_7_4.jpg)  
    
  If you want to write apps, [here's](https://hackaday.io/project/19035/log/63675) a small tutorial to get you started! More to come, eventually. Also, [pyLCI emulator](http://wiki.zerophone.org/index.php/PyLCI_emulator_setup) (a way to prototype apps without ZeroPhone hardware) got a redesign [thanks to Brian Dunlay](https://github.com/ZeroPhone/pyLCI/pull/12), so it works reliably now (although it temporarily lost the ability to show the splash screen, that's going to be fixed when aforementioned UI branch is merged).  
    
