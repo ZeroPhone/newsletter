@@ -8,7 +8,7 @@ Like this project? Here are some ways you can help:
 
 ## Contribute
 
-The project's contribution priorities are [kept in the ZeroPhone Wiki](wiki.zerophone.org/index.php/Contribution_Priorities), so if you're interested in contributing, pick one of the priorities described =) Beforehand, visit our IRC channel - #ZeroPhone on Freenode [(webchat)](http://webchat.freenode.net/?channels=%23ZeroPhone), or email me (zerophone on protonmail.com), same goes if you want to talk about any other ways you could help the project.
+The project's contribution priorities are [kept in the ZeroPhone Wiki](http://wiki.zerophone.org/index.php/Contribution_Priorities), so if you're interested in contributing, pick one of the priorities described =) Beforehand, visit our IRC channel - #ZeroPhone on Freenode [(webchat)](http://webchat.freenode.net/?channels=%23ZeroPhone), or email me (zerophone on protonmail.com), same goes if you want to talk about any other ways you could help the project.
 
 ## Donate
 <span id="donate"></span>
