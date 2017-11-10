@@ -5,6 +5,7 @@ img: 2017-11-10_10_1.jpg
 ---
 
 # Hackaday Prize, documentation, tutorials and Pi Zero hacks
+
   
 Sorry for the late newsletter - I was planning to release one right after Hackaday Prize finals deadline, but got entangled in personal problems, and now I'm sorting out some health issues. Nevertheless, I'm back here for a newsletter, and it's time to tell you about pre-Hackaday Prize progress! I'm working on a big (not Prize-related) worklog right now, as well as [sourcing instructions](http://wiki.zerophone.org/index.php/Sourcing_ZeroPhone_parts), so I'll have material for one more newsletter to be released ASAP =)  
    
