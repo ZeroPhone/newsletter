@@ -35,12 +35,13 @@ img: 2018-02-15_11_1.jpg
  6. The demand for a 3G board is higher than anticipated - and I've got some insights into fixing the "battery connector interfering with board" problem (the Delta redesign also helped).
   Those three things are all things I've worked on before FOSDEM, it's just that they're becomming bigger priorities right now.  
    
- My trip to FOSDEM was sponsored by a donation to the ZeroPhone project, and I want to express my gratitude to the person that made this donation - I've finally had a chance to see people that work on open-source projects I hold dear (for example, people related to Openmoko). I'm sorry for not releasing a newsletter announcing I'd be at FOSDEM - I tried to release a short "hey I'll be there, you can take a look at the ZeroPhone" note, but got locked out of my MailChimp account because my cell phone provider screwed something up with roaming, and I couldn't receive a 2FA SMS =(  
+ My trip to FOSDEM was sponsored by a donation to the ZeroPhone project, and I want to express my gratitude to the person that made this donation - I've finally had a chance to see people that work on open-source projects I hold dear (for example, people related to Openmoko). I'm sorry for not releasing a newsletter announcing I'd be at FOSDEM - I tried to release a short "hey I'll be there, you can take a look at the ZeroPhone" note, but got locked out of my MailChimp account because my cell phone provider screwed something up with roaming, and I couldn't receive a 2FA SMS =(
+
+![](../images/2018-02-15_11_6.jpg)  
+Experimenting with cheap ways to make kits  
    
- ![](../images/2018-02-15_11_6.jpg)  
- Experimenting with cheap ways to make kits  
-   
- After FOSDEM, I've had a chance to talk to the [EOMA-68](https://www.crowdsupply.com/eoma68/micro-desktop/) creator and developer, and I had a chance to ask the most important questions about both kit and fully-assembled ZeroPhone production (in particular, about the most tricky bits of ZeroPhone assembly that I don't yet fully know how to automate), as well as about thinner LiIon battery sourcing. This helped me finish my planning for ZeroPhone production, which means that the crowdfunding campaign starts in one-two months' time - it'd be sooner, but I still have to wait for Chinese New Year to be over. I'll announce the date shortly, in the upcoming newsletter (which I'm already writing). 
+After FOSDEM, I've had a chance to talk to the [EOMA-68](https://www.crowdsupply.com/eoma68/micro-desktop/) creator and developer, and I had a chance to ask the most important questions about both kit and fully-assembled ZeroPhone production (in particular, about the most tricky bits of ZeroPhone assembly that I don't yet fully know how to automate), as well as about thinner LiIon battery sourcing. This helped me finish my planning for ZeroPhone production, which means that the crowdfunding campaign starts in one-two months' time - it'd be sooner, but I still have to wait for Chinese New Year to be over. I'll announce the date shortly, in the upcoming newsletter (which I'm already writing).
+
 ---
 
 ## P.S.
