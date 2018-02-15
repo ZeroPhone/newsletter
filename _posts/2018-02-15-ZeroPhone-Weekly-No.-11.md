@@ -32,9 +32,9 @@ img: 2018-02-15_11_1.jpg
    
  I was at FOSDEM! I've met a lot of interesting people from the community. Particularly important things that I've found out while talking to people: 
 
- 1. I'll need to offer an alternative to the Pi Zero, mainly because of the proprietary parts, not only software, but also the schematics and PCB files are not open-source. For that, I can develop drop-in replacements for the Pi Zero, in fact, I have two options - first is making a board based off C.H.I.P Pro, and second is redrawing the PocketBeagle board - I will likely pursue both options.
- 2. Having a USB-UART board for developers will be important - it's already done, but now it needs to be changed a little bit and re-checked.
- 3. The demand for a 3G board is higher than anticipated - and I've got some insights into fixing the "battery connector interfering with board" problem (the Delta redesign also helped).
+1. I'll need to offer an alternative to the Pi Zero, mainly because of the proprietary parts, not only software, but also the schematics and PCB files are not open-source. For that, I can develop drop-in replacements for the Pi Zero, in fact, I have two options - first is making a board based off C.H.I.P Pro, and second is redrawing the PocketBeagle board - I will likely pursue both options.
+2. Having a USB-UART board for developers will be important - it's already done, but now it needs to be changed a little bit and re-checked.
+3. The demand for a 3G board is higher than anticipated - and I've got some insights into fixing the "battery connector interfering with board" problem (the Delta redesign also helped).
 
  Those three things are all things I've worked on before FOSDEM, it's just that they're becomming bigger priorities right now.  
    
