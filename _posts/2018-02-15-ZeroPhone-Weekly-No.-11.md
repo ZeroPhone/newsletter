@@ -30,10 +30,13 @@ img: 2018-02-15_11_1.jpg
  ![](../images/2018-02-15_11_5.jpg)  
  Playing with a CHIP Pro  
    
- I was at FOSDEM! I've met a lot of interesting people from the community. Particularly important things that I've found out while talking to people:  2. I'll need to offer an alternative to the Pi Zero, mainly because of the proprietary parts, not only software, but also the schematics and PCB files are not open-source. For that, I can develop drop-in replacements for the Pi Zero, in fact, I have two options - first is making a board based off C.H.I.P Pro, and second is redrawing the PocketBeagle board - I will likely pursue both options.
- 4. Having a USB-UART board for developers will be important - it's already done, but now it needs to be changed a little bit and re-checked.
- 6. The demand for a 3G board is higher than anticipated - and I've got some insights into fixing the "battery connector interfering with board" problem (the Delta redesign also helped).
-  Those three things are all things I've worked on before FOSDEM, it's just that they're becomming bigger priorities right now.  
+ I was at FOSDEM! I've met a lot of interesting people from the community. Particularly important things that I've found out while talking to people: 
+
+ 1. I'll need to offer an alternative to the Pi Zero, mainly because of the proprietary parts, not only software, but also the schematics and PCB files are not open-source. For that, I can develop drop-in replacements for the Pi Zero, in fact, I have two options - first is making a board based off C.H.I.P Pro, and second is redrawing the PocketBeagle board - I will likely pursue both options.
+ 2. Having a USB-UART board for developers will be important - it's already done, but now it needs to be changed a little bit and re-checked.
+ 3. The demand for a 3G board is higher than anticipated - and I've got some insights into fixing the "battery connector interfering with board" problem (the Delta redesign also helped).
+
+ Those three things are all things I've worked on before FOSDEM, it's just that they're becomming bigger priorities right now.  
    
  My trip to FOSDEM was sponsored by a donation to the ZeroPhone project, and I want to express my gratitude to the person that made this donation - I've finally had a chance to see people that work on open-source projects I hold dear (for example, people related to Openmoko). I'm sorry for not releasing a newsletter announcing I'd be at FOSDEM - I tried to release a short "hey I'll be there, you can take a look at the ZeroPhone" note, but got locked out of my MailChimp account because my cell phone provider screwed something up with roaming, and I couldn't receive a 2FA SMS =(
 
