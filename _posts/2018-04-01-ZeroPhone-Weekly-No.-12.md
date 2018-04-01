@@ -6,6 +6,7 @@ img: 2018-04-01_12_1.jpg
 
 # A paradigm shift in the project
    
+
 Over the course of this year I've had multiple discussions with people asking for a bigger screen. Even though[ I've stated my reasons behind that decision](https://hackaday.io/project/19035-zerophone-a-raspberry-pi-smartphone/log/57417-why-not-a-large-display-with-a-touchscreen), I've come to understand this perspective, and I've found myself agreeing with it more and more as the project progressed. The more I used large-screen computers (my laptop, my Replicant smartphone or other computers), the more it dawned on me that small screens are, indeed, the way of the past. So, I think it's time to make some radical changes to address this issue.  
 
 ![](../images/2018-04-01_12_2.jpg)  
