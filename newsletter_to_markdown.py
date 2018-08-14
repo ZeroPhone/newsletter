@@ -16,7 +16,7 @@ def md(html, **kwargs):
     class CustomMarkdownConverter(MarkdownConverter):
         def convert_hn(self, n, el, text):
             hashes = "#"*n
-            ret =  "\n---\n\n{} {}\n\n".format(hashes, text.strip())
+            ret =  "\n---\n\n{} {}\n\n".format(hashes, text.strip().encode('ascii', 'ignore'))
             return ret
 
     return CustomMarkdownConverter(**kwargs).convert(html)
@@ -84,14 +84,20 @@ for i, image in enumerate(images):
 title_xpath = "/html/head/title"
 title = tree.xpath(title_xpath)[0].text
 
+#Filtering title for non-ASCII characters
+title = title.encode('ascii', 'ignore')
+
 #Generating post header
 post_header = """---
 layout: post
 title: {0}
 img: {1}""".format(title, first_image_filename)
 
-#Converting HTML into MD
+# Getting HTML text from the tree
 content_html = xhtml.tostring(content_element)
+
+# Filtering and converting HTML
+content_html = content_html.encode('ascii', 'ignore')
 unfiltered_md = md(content_html)
 
 #Writing everything into a post file
