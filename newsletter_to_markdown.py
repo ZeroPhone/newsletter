@@ -48,7 +48,7 @@ content_element = tree.xpath(content_xpath)[0]
 print("Enter date in YYYY-MM-DD format")
 date = raw_input("Date: ")
 print("Enter newsletter number")
-newsletter_number = int(raw_input("Number: "))
+newsletter_number = raw_input("Number: ")
 
 #Generating filename
 post_filename = "{0}-ZeroPhone-Weekly-No.-{1}.md".format(date, newsletter_number)
