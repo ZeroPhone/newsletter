@@ -1,3 +1,5 @@
+#!/usr/bin/env python2
+
 from collections import OrderedDict
 from lxml import html as xhtml
 import requests
