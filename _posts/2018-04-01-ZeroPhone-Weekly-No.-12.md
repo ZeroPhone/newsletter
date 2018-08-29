@@ -4,7 +4,14 @@ title: Solving the display problem once and for all
 img: 2018-04-01_12_1.jpg 
 ---
 
-# A paradigm shift in the project
+# Hello! This is a 1st of April joke, and I know it might not be obvious at first (especially given it was written to be non-obvious),
+but I hope reading through this post will make that clear =) Howeer, if you're coming here
+from the [Hackster post](https://blog.hackster.io/the-zerophone-a-linux-smartphone-powered-by-the-raspberry-pi-zero-286f36a25fd4)
+through a hyperlink claiming ZeroPhone supports screens up to 1024x1280, fear not - it
+does, indeed, since it has both [an SPI connection](https://zerophone.github.io/newsletter/ZeroPhone-Weekly-No.-11/)
+and [a MiniHDMI connection](https://www.crowdsupply.com/img/6362/zerophone-dev_jpg_project-body.jpg), allowing
+to both plug in small&portable displays, as well as the bulky&high-res ones, and quite
+some in between. Enjoy the newsletter... oh, and [follow us on Twitter](https://twitter.com/@ZeroPhoneOSHW) =)
 
   
  Over the course of this year I've had multiple discussions with people asking for a bigger screen. Even though[ I've stated my reasons behind that decision](https://hackaday.io/project/19035-zerophone-a-raspberry-pi-smartphone/log/57417-why-not-a-large-display-with-a-touchscreen), I've come to understand this perspective, and I've found myself agreeing with it more and more as the project progressed. The more I used large-screen computers (my laptop, my Replicant smartphone or other computers), the more it dawned on me that small screens are, indeed, the way of the past. So, I think it's time to make some radical changes to address this issue.  
