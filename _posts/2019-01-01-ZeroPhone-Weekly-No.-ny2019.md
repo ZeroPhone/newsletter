@@ -6,7 +6,8 @@ img: 20190101_ny2019_1.jpg
 
 # Happy New Year from ZeroPhone!
 
-   pi@zerophone:~/ZPUI $ sudo python main.py -a apps/example\_apps/sandbox/  
+ ```
+ pi@zerophone:~/ZPUI $ sudo python main.py -a apps/example_apps/sandbox/  
  [...]  
  >>> c = Canvas(o, interactive=True)  
  >>> font = ("Fixedsys62.ttf", 20)  
@@ -14,6 +15,7 @@ img: 20190101_ny2019_1.jpg
  >>> c.text("New", (49, 25), font=font)  
  >>> c.text("Year!", (70, 45), font=font)  
  >>> c.display()    
+ ````
  *This is [a Twitter thread](https://twitter.com/ZeroPhoneOSHW/status/1079775404066521088) that I decided would be suitable for a newsletter.*  
    
  Happy New Year to everybody in this community! This was an eventful year for this project, and I'd like to thank everyone that followed, promoted, discussed, supported and contributed to ZeroPhone. We're close to properly achieving all our self-assembly goals, and crowdfunding is coming!  
@@ -32,6 +34,7 @@ img: 20190101_ny2019_1.jpg
    
  Thank you for your support. Hope this year brings you good things and luck, and I hope that, this year, some good things in your life will be a result of the work we do on this project - whether it's the ZP itself, the UI, hardware hacks, knowledge and ideas, or the community. 💗  
    
+ ```
    pi@zerophone:~/ZPUI $ sudo python main.py -a apps/example\_apps/sandbox/  
  [...]  
  >>> c = Canvas(o, interactive=True)  
@@ -44,6 +47,7 @@ img: 20190101_ny2019_1.jpg
  >>> c.polygon(p)  
  >>> font = ("Fixedsys62.ttf", 16)  
  >>> c.centered\_text("2019", font=font)   
+ ```
  ![](../images/20190101_ny2019_2.jpg)  
    Thank you all for bringing me up to $100 [on Patreon](https://patreon.com/zerophone). This will go a long way towards making sure I have a safe trip to FOSDEM in February! If you have any suggestions, comments, project ideas or wishes - you can [fill out the survey](https://zerophone.github.io/newsletter/survey/), reply to this e-mail, reach me on [Hackaday](https://hackaday.io/CRImier) or [Reddit](https://www.reddit.com/user/CRImier), maybe comment on [the Hackaday project](https://hackaday.io/project/19035) - whatever works for you!  
    
