@@ -5,7 +5,7 @@ img: 2018-04-01_12_1.jpg
 ---
 
 # Hello! This is a 1st of April joke, and I know it might not be obvious at first (especially given it was written to be non-obvious),
-but I hope reading through this post will make that clear =) Howeer, if you're coming here
+but I hope reading through this post will make that clear =) However, if you're coming here
 from the [Hackster post](https://blog.hackster.io/the-zerophone-a-linux-smartphone-powered-by-the-raspberry-pi-zero-286f36a25fd4)
 through a hyperlink claiming ZeroPhone supports screens up to 1024x1280, fear not - it
 does, indeed, since it has both [an SPI connection](https://zerophone.github.io/newsletter/ZeroPhone-Weekly-No.-11/)
